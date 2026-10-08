@@ -1,24 +1,24 @@
 use crate::task::Status;
 
 pub const HELP_MESSAGE: &'static str = "\
-Todo — gerenciador de tarefas
+Todo — Task Manager
 
-Uso:
-  todo <comando>
+Usage:
+  todo <cmd>
 
-Comandos:
-  add     Adiciona uma tarefa
-  rm      Remove uma tarefa pelo título
-  up      Atualiza o status de uma tarefa pelo título
-  show    Exibe as tarefas
-  h       Mostra esta mensagem
+Cmd:
+  add     Add a task
+  rm      Remove a task by title
+  up      Update a task by title
+  show    Show all tasks
+  h       Show this message
 
-Status disponíveis:
+Avaible Status:
   Uncompleted
   Starting
   Completed
 
-Exemplos:
+Exemples:
   todo add
   todo rm
   todo up
